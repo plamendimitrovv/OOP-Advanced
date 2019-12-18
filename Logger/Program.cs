@@ -7,5 +7,6 @@ namespace Logger
         static void Main(string[] args)
         {
             
+        }
     }
 }
