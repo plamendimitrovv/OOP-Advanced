@@ -6,7 +6,6 @@ namespace Logger.Interfaces
 {
     public interface IReader
     {
-        string WriteLine(string message);
-        string Write(string message);
+        string Readline();
     }
 }

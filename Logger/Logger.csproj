@@ -8,10 +8,6 @@
   <ItemGroup>
     <Folder Include="Engine\" />
     <Folder Include="Factories\" />
-    <Folder Include="Models\AppenderModels\" />
-    <Folder Include="Models\LayoutModels\" />
-    <Folder Include="Models\LoggerModels\" />
-    <Folder Include="RWModels\" />
   </ItemGroup>
 
 </Project>
