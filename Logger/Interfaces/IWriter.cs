@@ -6,5 +6,6 @@ namespace Logger.Interfaces
 {
     public interface IWriter
     {
+        string WriteLine();         
     }
 }

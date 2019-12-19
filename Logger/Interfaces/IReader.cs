@@ -4,7 +4,9 @@ using System.Text;
 
 namespace Logger.Interfaces
 {
-    public class IReader
+    public interface IReader
     {
+        string WriteLine(string message);
+        string Write(string message);
     }
 }
