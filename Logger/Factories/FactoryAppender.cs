@@ -17,7 +17,7 @@ namespace Logger.Factories
 
             else if (type == "FileAppender")
             {
-                return FileAppender(layout); 
+                return new FileAppender(layout); 
             }
 
             throw new ArgumentException("Invalid type of Appender!"); 
