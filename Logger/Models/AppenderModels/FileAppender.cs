@@ -1,11 +1,11 @@
-﻿using Logger.Interfaces;
-using Logger.Models.Enums;
+﻿using _Logger.Interfaces;
+using _Logger.Models.Enums;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace Logger.Models.AppenderModels
+namespace _Logger.Models.AppenderModels
 {
     public class FileAppender : IAppender
     {

@@ -1,10 +1,10 @@
-﻿using Logger.Interfaces;
-using Logger.Models.Enums;
+﻿using _Logger.Interfaces;
+using _Logger.Models.Enums;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Logger.Models.LoggerModels
+namespace _Logger.Models.LoggerModels
 {
     public class Logger : ILogger
     {
@@ -45,11 +45,11 @@ namespace Logger.Models.LoggerModels
             this.Append(ReportLevel.WARNING, date, message);
         }
 
-        private void Append(ReportLevel reportLevel, string date, string message)
+        private void Append(ReportLevel reportlevel, string date, string message)
         {
             foreach (var appender in this.appenders)
             {
-                appender.Append(reportLevel, date, message); 
+                appender.Append(reportlevel, date, message); 
             }
         }
     }

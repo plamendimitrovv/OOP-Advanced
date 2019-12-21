@@ -1,10 +1,10 @@
-﻿using Logger.Interfaces;
-using Logger.Models.AppenderModels;
+﻿using _Logger.Interfaces;
+using _Logger.Models.AppenderModels;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Logger.Factories
+namespace _Logger.Factories
 {
     public class FactoryAppender
     {

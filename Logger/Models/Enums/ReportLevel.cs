@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Logger.Models.Enums
+namespace _Logger.Models.Enums
 {
     public enum ReportLevel
     {

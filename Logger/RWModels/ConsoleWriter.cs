@@ -1,9 +1,9 @@
-﻿using Logger.Interfaces;
+﻿using _Logger.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Logger.RWModels
+namespace _Logger.RWModels
 {
     class ConsoleWriter : IWriter
 

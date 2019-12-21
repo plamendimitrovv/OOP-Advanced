@@ -1,12 +1,12 @@
-﻿using Logger.Engine;
-using Logger.Factories;
-using Logger.Interfaces;
-using Logger.RWModels;
+﻿using _Logger.Engine;
+using _Logger.Factories;
+using _Logger.Interfaces;
+using _Logger.RWModels;
 using System;
 
-namespace Logger
+namespace _Logger
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -20,7 +20,7 @@ namespace Logger
 
             var controller = new Controller(factoryAppender, factoryLayout, consoleWriter, consoleReader);
 
-
+            controller.Run();
         }
     }
 }

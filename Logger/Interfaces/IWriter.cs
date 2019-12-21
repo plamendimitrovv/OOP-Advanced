@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Logger.Interfaces
+namespace _Logger.Interfaces
 {
     public interface IWriter
     {

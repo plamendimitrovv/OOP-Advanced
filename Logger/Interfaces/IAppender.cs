@@ -1,9 +1,9 @@
-﻿using Logger.Models.Enums;
+﻿using _Logger.Models.Enums;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Logger.Interfaces
+namespace _Logger.Interfaces
 {
    public interface IAppender
     {

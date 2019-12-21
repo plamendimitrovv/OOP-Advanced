@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Logger.Models
+namespace _Logger.Models
 {
     public class LogFile
     {
