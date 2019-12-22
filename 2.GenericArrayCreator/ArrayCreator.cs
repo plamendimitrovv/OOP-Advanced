@@ -14,8 +14,14 @@ namespace _2.GenericArrayCreator
             {
                 arr[index] = item; 
             }
+                                 
 
-            return arr; 
+            for (int index = 0; index < length; index++)
+            {
+                Console.WriteLine(arr[index]); 
+            }
+
+            return arr;
         }
     }
 }
