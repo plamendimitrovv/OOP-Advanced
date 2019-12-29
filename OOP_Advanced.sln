@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.CustomList", "7.CustomLis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.CustomListSorter", "8.CustomListSorter\8.CustomListSorter.csproj", "{E3C8EFEF-AED6-4D62-805F-0E8AA279FD82}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.Tuple", "10.Tuple\10.Tuple.csproj", "{6E526A32-8EFB-47FC-95D6-512EC51F55EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,10 @@ Global
 		{E3C8EFEF-AED6-4D62-805F-0E8AA279FD82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3C8EFEF-AED6-4D62-805F-0E8AA279FD82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3C8EFEF-AED6-4D62-805F-0E8AA279FD82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E526A32-8EFB-47FC-95D6-512EC51F55EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E526A32-8EFB-47FC-95D6-512EC51F55EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E526A32-8EFB-47FC-95D6-512EC51F55EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E526A32-8EFB-47FC-95D6-512EC51F55EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +108,7 @@ Global
 		{8DB611A9-0C35-4670-97EE-600435491434} = {BD853AE9-7055-47C9-9F55-C9F950D8AFE8}
 		{D0141679-C4A1-4000-A3AF-A49A4BCD31A4} = {BD853AE9-7055-47C9-9F55-C9F950D8AFE8}
 		{E3C8EFEF-AED6-4D62-805F-0E8AA279FD82} = {BD853AE9-7055-47C9-9F55-C9F950D8AFE8}
+		{6E526A32-8EFB-47FC-95D6-512EC51F55EB} = {BD853AE9-7055-47C9-9F55-C9F950D8AFE8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {17C1DA0E-3D52-4E41-ABA7-32F88DB3951C}
