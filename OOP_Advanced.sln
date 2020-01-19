@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11.Threeuple", "11.Threeupl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.IteratorsAndComparators", "3.IteratorsAndComparators", "{A75EFA80-EEFF-4521-810D-D1457D82CB8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.Library", "1.Library\1.Library.csproj", "{D5272D6F-45BC-4F71-AC32-F32F5F09D2DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.Library", "1.Library\1.Library.csproj", "{D5272D6F-45BC-4F71-AC32-F32F5F09D2DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.LibraryIterator", "2.LibraryIterator\2.LibraryIterator.csproj", "{800A9345-82F3-494B-B648-326CA82BAEAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{D5272D6F-45BC-4F71-AC32-F32F5F09D2DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5272D6F-45BC-4F71-AC32-F32F5F09D2DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5272D6F-45BC-4F71-AC32-F32F5F09D2DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{800A9345-82F3-494B-B648-326CA82BAEAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{800A9345-82F3-494B-B648-326CA82BAEAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{800A9345-82F3-494B-B648-326CA82BAEAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{800A9345-82F3-494B-B648-326CA82BAEAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -125,6 +131,7 @@ Global
 		{6E526A32-8EFB-47FC-95D6-512EC51F55EB} = {BD853AE9-7055-47C9-9F55-C9F950D8AFE8}
 		{350A114C-D70E-41F7-9881-700967FA0CA5} = {BD853AE9-7055-47C9-9F55-C9F950D8AFE8}
 		{D5272D6F-45BC-4F71-AC32-F32F5F09D2DE} = {A75EFA80-EEFF-4521-810D-D1457D82CB8D}
+		{800A9345-82F3-494B-B648-326CA82BAEAF} = {A75EFA80-EEFF-4521-810D-D1457D82CB8D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {17C1DA0E-3D52-4E41-ABA7-32F88DB3951C}
