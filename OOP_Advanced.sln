@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.LibraryIterator", "2.Libr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.ComparableBook", "3.ComparableBook\3.ComparableBook.csproj", "{FDA0C4CC-23B1-436C-BBDD-1BD01192ED64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.BookComparator", "4.BookComparator\4.BookComparator.csproj", "{038CA7DA-F066-48EB-BB0F-8DF7F1AA88EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{FDA0C4CC-23B1-436C-BBDD-1BD01192ED64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDA0C4CC-23B1-436C-BBDD-1BD01192ED64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDA0C4CC-23B1-436C-BBDD-1BD01192ED64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{038CA7DA-F066-48EB-BB0F-8DF7F1AA88EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{038CA7DA-F066-48EB-BB0F-8DF7F1AA88EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{038CA7DA-F066-48EB-BB0F-8DF7F1AA88EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{038CA7DA-F066-48EB-BB0F-8DF7F1AA88EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -139,6 +145,7 @@ Global
 		{D5272D6F-45BC-4F71-AC32-F32F5F09D2DE} = {A75EFA80-EEFF-4521-810D-D1457D82CB8D}
 		{800A9345-82F3-494B-B648-326CA82BAEAF} = {A75EFA80-EEFF-4521-810D-D1457D82CB8D}
 		{FDA0C4CC-23B1-436C-BBDD-1BD01192ED64} = {A75EFA80-EEFF-4521-810D-D1457D82CB8D}
+		{038CA7DA-F066-48EB-BB0F-8DF7F1AA88EA} = {A75EFA80-EEFF-4521-810D-D1457D82CB8D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {17C1DA0E-3D52-4E41-ABA7-32F88DB3951C}
