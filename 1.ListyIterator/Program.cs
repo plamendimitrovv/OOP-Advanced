@@ -6,7 +6,8 @@ namespace _1.ListyIterator
     {
         public static void Main(string[] args)
         {
-
+            var commandInterpreter = new CommandInterpreter();
+            commandInterpreter.Run(); 
         }
     }
 }
